@@ -1,0 +1,23 @@
+// Design token: color palette
+
+:root {
+  --color-primary:      #3b82f6;
+  --color-primary-dark: #2563eb;
+  --color-secondary:    #8b5cf6;
+  --color-success:      #10b981;
+  --color-warning:      #f59e0b;
+  --color-error:        #ef4444;
+  --color-surface:      #ffffff;
+  --color-background:   #f9fafb;
+  --color-border:       #e5e7eb;
+  --color-text:         #111827;
+  --color-text-muted:   #6b7280;
+}
+
+[data-theme="dark"] {
+  --color-surface:      #1f2937;
+  --color-background:   #111827;
+  --color-border:       #374151;
+  --color-text:         #f9fafb;
+  --color-text-muted:   #9ca3af;
+}

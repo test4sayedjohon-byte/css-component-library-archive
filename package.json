@@ -1,0 +1,13 @@
+{
+  "name": "css-component-library-archive",
+  "version": "2.3.1",
+  "description": "Archived CSS component library",
+  "scripts": {
+    "build": "sass src/main.scss dist/main.css --style=compressed",
+    "watch": "sass --watch src/main.scss:dist/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.56.0"
+  },
+  "license": "MIT"
+}
